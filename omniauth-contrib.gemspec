@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {spec}/*`.split("\n")
   gem.name          = "omniauth-dummies"
   gem.require_paths = ["lib"]
-  gem.version       = OmniAuth::GoogleDummies::VERSION
+  gem.version       = OmniAuth::Dummies::VERSION
 
   gem.add_runtime_dependency 'omniauth-google-oauth2'
   gem.add_runtime_dependency 'omniauth-facebook'
