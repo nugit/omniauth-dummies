@@ -5,9 +5,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'omniauth', '~> 1.0'
 
   gem.authors       = ["Alan Ho"]
-  gem.email         = ["alanho@gmail.com"]
-  gem.description   = %q{A Google OAuth2 Dummy strategy for OmniAuth 1.x}
-  gem.summary       = %q{A Google OAuth2 Dummy strategy for OmniAuth 1.x}
+  gem.email         = ["alan@nugit.co"]
+  gem.description   = %q{A OmniAuth Dummy strategies for OmniAuth 1.x}
+  gem.summary       = %q{A OmniAuth Dummy strategies for OmniAuth 1.x}
   gem.homepage      = ""
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
