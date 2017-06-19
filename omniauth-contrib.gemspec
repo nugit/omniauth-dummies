@@ -19,6 +19,7 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency 'omniauth-google-oauth2'
   gem.add_runtime_dependency 'omniauth-facebook'
+  gem.add_runtime_dependency 'omniauth-twitter'
 
   gem.add_development_dependency 'rspec', '~> 2.6.0'
   gem.add_development_dependency 'rake'
