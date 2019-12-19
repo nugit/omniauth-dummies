@@ -44,7 +44,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    rack (1.5.2)
+    rack (1.6.12)
     rack-protection (1.5.0)
       rack
     rake (10.1.0)
