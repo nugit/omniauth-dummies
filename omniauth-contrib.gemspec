@@ -2,7 +2,7 @@
 require File.expand_path(File.join('..', 'lib', 'omniauth', 'dummies', 'version'), __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.add_dependency 'omniauth', '~> 1.0'
+  gem.add_dependency 'omniauth', '>= 1', '< 3'
 
   gem.authors       = ["Alan Ho"]
   gem.email         = ["alan@nugit.co"]
